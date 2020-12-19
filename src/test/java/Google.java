@@ -12,7 +12,7 @@ public class Google
     driver.get("https://www.google.com");
 
     driver.findElement(By.name("q")).sendKeys("IntelliJ IDEA");
-    Thread.sleep(3000);
+    Thread.sleep(4000);
     driver.quit();
     }
 }
